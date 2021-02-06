@@ -1,0 +1,27 @@
+body {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  background: black;
+}
+div.main {
+  height: 100vh;
+  width: 50vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center space-around;
+}
+div.game {
+  height: 50%;
+  background: green;
+}
+div.tasks {
+  height: 50%;
+  background: red;
+  overflow-y: scroll;
+}
+div.aaa {
+  height: 20%;
+  width: 50vh;
+  z-index: -1;
+}
